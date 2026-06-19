@@ -1,0 +1,39 @@
+{
+  "department": "Engineering",
+  "id": "ENG-404",
+  "active": true,
+  "manager": {
+    "name": "Sarah Jenkins",
+    "employeeId": "EMP-0012",
+    "contact": {
+      "email": "sarah.j@company.com",
+      "phone": "+1-555-0199"
+    }
+  },
+  "projects": [
+    {
+      "title": "Cloud Migration",
+      "status": "In Progress",
+      "budget": 450000,
+      "technologies": ["AWS", "Terraform", "Docker"]
+    },
+    {
+      "title": "Mobile App v2",
+      "status": "Planning",
+      "budget": 120000,
+      "technologies": ["React Native", "GraphQL"]
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Alex Rivera",
+      "role": "DevOps Engineer",
+      "skills": ["Linux", "Kubernetes", "Python"]
+    },
+    {
+      "name": "Emily Chen",
+      "role": "Frontend Developer",
+      "skills": ["TypeScript", "React", "CSS"]
+    }
+  ]
+}
