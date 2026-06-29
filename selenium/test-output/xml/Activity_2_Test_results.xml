@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FSTActivities"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="0.134">
+    <properties></properties>
+
+            <testcase
+                name="blackButtonFinding"
+                time="0.084"
+                classname="Activity_2_Test">
+
+            <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: Black Button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0eafb5f7-e019-4cfa-8f6d-543aafad78c2, findElement {using=link text, value=Black Button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.2, moz:accessibilityChecks: false, moz:buildID: 20260621191700, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14968, moz:profile: C:\Users\NARAYA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0eafb5f7-e019-4cfa-8f6d-543aafad78c2">
+                <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Black Button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0eafb5f7-e019-4cfa-8f6d-543aafad78c2, findElement {using=link text, value=Black Button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.2, moz:accessibilityChecks: false, moz:buildID: 20260621191700, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14968, moz:profile: C:\Users\NARAYA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0eafb5f7-e019-4cfa-8f6d-543aafad78c2
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)Activity_2_Test.blackButtonFinding(Activity_2_Test.java:29)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="aSkipTest"
+                time="0.0"
+                classname="Activity_2_Test">
+            </testcase>
+
+            <testcase
+                name="checkTitle"
+                time="0.046"
+                classname="Activity_2_Test">
+            </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="14" time="0.105" timestamp="2026-06-18T16:18:57.101134+05:30" hostname="IBM-1Q4SR24"><testcase classname="tests.Activity21_test" name="test_sum" time="0.000" /><testcase classname="tests.Activity21_test" name="test_difference" time="0.001" /><testcase classname="tests.Activity21_test" name="test_product" time="0.000" /><testcase classname="tests.Activity21_test" name="test_div" time="0.000" /><testcase classname="tests.Activity22_test" name="test_sum" time="0.002" /><testcase classname="tests.Activity22_test" name="test_difference" time="0.000" /><testcase classname="tests.Activity22_test" name="test_product" time="0.000" /><testcase classname="tests.Activity22_test" name="test_div" time="0.000" /><testcase classname="tests.Activity23_test" name="test_divisible_by_3" time="0.000" /><testcase classname="tests.Activity23_test" name="test_divisible_by_6" time="0.001"><failure message="assert (39 % 6) == 0">input_value = 39
+
+    def test_divisible_by_6(input_value):
+&gt;      assert input_value % 6 == 0
+E      assert (39 % 6) == 0
+
+Activity23_test.py:12: AssertionError</failure></testcase><testcase classname="tests.Activity24_test" name="test_transaction[30-10-20]" time="0.001" /><testcase classname="tests.Activity24_test" name="test_transaction[20-2-18]" time="0.000" /><testcase classname="tests.first_test" name="test_sqrt" time="0.000" /><testcase classname="tests.first_test" name="testsquare" time="0.000"><failure message="assert (7 ** 2) == 40">def testsquare():
+        num = 7
+&gt;       assert num**2 == 40
+E       assert (7 ** 2) == 40
+
+first_test.py:10: AssertionError</failure></testcase></testsuite></testsuites>

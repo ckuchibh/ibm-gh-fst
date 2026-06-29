@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FSTActivities"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.400">
+    <properties></properties>
+
+
+
+            <testcase
+                name="homePageTest"
+                time="0.310"
+                classname="Activity_1_Test">
+            </testcase>
+            <testcase
+                name="aboutPageTest"
+                time="0.090"
+                classname="Activity_1_Test">
+            </testcase>
+</testsuite>

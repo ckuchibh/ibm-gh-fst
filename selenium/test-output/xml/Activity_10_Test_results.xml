@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.764">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testForm"
+                time="1.526"
+                classname="Activity_10_Test">
+            </testcase>
+            <testcase
+                name="testForm"
+                time="1.002"
+                classname="Activity_10_Test">
+            </testcase>
+            <testcase
+                name="testForm"
+                time="1.236"
+                classname="Activity_10_Test">
+            </testcase>
+</testsuite>
