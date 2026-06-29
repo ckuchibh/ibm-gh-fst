@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="classes" name="Failed suite [FSTTests]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="password"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="6" parallel="classes" name="FSTActivities(failed)">
+    <classes>
+      <class name="Activity_7_Test">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Activity_7_Test -->
+      <class name="Activity_2_Test">
+        <methods>
+          <include name="aSkipTest"/>
+          <include name="Termination"/>
+          <include name="blackButtonFinding"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- Activity_2_Test -->
+    </classes>
+  </test> <!-- FSTActivities(failed) -->
+</suite> <!-- Failed suite [FSTTests] -->
